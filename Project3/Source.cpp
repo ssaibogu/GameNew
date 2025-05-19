@@ -27,13 +27,18 @@ void InitGame() {
 }
 
 int main() {
+	setlocale(LC_ALL, "Russian");
 	/*int temp[5] = { 1,6,-5,4,-9 };
 	temp[0] = 7;*/
+
+	// ƒ«: вывести числа из массива temp в пор€дке возрастани€ (пузырьковый метод)
+	// –асписать локации, продумать механики
+	//  онтейнеры - вектор, операции с векторами
 	InitGame();
 
 	for (int i = 0; i < 2; i++) {
 
-		cout << location[i].name;
+		cout << location[i].name; cout << endl;
 
 	
 	}
