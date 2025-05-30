@@ -13,7 +13,7 @@ void start() {
 
  /*   for (int i = 0; i < x[0].size(); i++) {
         std::cout << x[0][i] << std::flush;
-        std::this_thread::sleep_for(std::chrono::milliseconds(100));
+        std::this_thread::sleep_for(std::chrono::milliseconds(100))  ;
 
     }
 
