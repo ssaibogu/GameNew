@@ -1,5 +1,5 @@
 #include "NOVELBETA.h"
-#include <Windows.h>
+//#include <Windows.h>
 
 string ch;
 
@@ -53,7 +53,7 @@ void choice() {
 
 int main() {
     setlocale(LC_ALL, "Russian");
-    SetConsoleCP(1251);
+    //SetConsoleCP(1251);
 
     start();
 
