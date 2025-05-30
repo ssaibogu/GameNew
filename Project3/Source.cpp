@@ -1,5 +1,5 @@
 ﻿#include "NOVELBETA.h"
-//#include <Windows.h>
+#include <Windows.h>
 
 string ch;
 
@@ -20,7 +20,7 @@ void start() {
     string b = "Помыть попу?\n Да\n Нет\n";
 
     for (int i = 0; i < b.size(); i++) {
-        std::cout << b[i] << std::flush;
+        std::cout << b[i] << std::flush;ю//
         std::this_thread::sleep_for(std::chrono::milliseconds(100));
 
     }*/
@@ -53,7 +53,7 @@ void choice() {
 
 int main() {
     setlocale(LC_ALL, "Russian");
-    //SetConsoleCP(1251);
+    SetConsoleCP(1251);
 
     start();
 
