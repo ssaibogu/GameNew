@@ -1,4 +1,4 @@
-#include "NOVELBETA.h"
+п»ї#include "NOVELBETA.h"
 //#include <Windows.h>
 
 string ch;
@@ -8,8 +8,8 @@ void choice();
 void start() {
     //vector<string> x;
 
-    //x.push_back({"ПРивет Андрей, попу мыл? Нет а что?\n", "Помыть попу?\n Да\n Нет\n"});
-    //string a = "ПРивет Андрей, попу мыл? Нет а что?\n";
+    //x.push_back({"РџР РёРІРµС‚ РђРЅРґСЂРµР№, РїРѕРїСѓ РјС‹Р»? РќРµС‚ Р° С‡С‚Рѕ?\n", "РџРѕРјС‹С‚СЊ РїРѕРїСѓ?\n Р”Р°\n РќРµС‚\n"});
+    //string a = "РџР РёРІРµС‚ РђРЅРґСЂРµР№, РїРѕРїСѓ РјС‹Р»? РќРµС‚ Р° С‡С‚Рѕ?\n";
 
  /*   for (int i = 0; i < x[0].size(); i++) {
         std::cout << x[0][i] << std::flush;
@@ -17,14 +17,14 @@ void start() {
 
     }
 
-    string b = "Помыть попу?\n Да\n Нет\n";
+    string b = "РџРѕРјС‹С‚СЊ РїРѕРїСѓ?\n Р”Р°\n РќРµС‚\n";
 
     for (int i = 0; i < b.size(); i++) {
         std::cout << b[i] << std::flush;
         std::this_thread::sleep_for(std::chrono::milliseconds(100));
 
     }*/
-    displayMessages({ "ПРивет Андрей, попу мыл? Нет а что?\n", "Помыть попу?\n Да\n Нет\n" });
+    displayMessages({ "РџР РёРІРµС‚ РђРЅРґСЂРµР№, РїРѕРїСѓ РјС‹Р»? РќРµС‚ Р° С‡С‚Рѕ?\n", "РџРѕРјС‹С‚СЊ РїРѕРїСѓ?\n Р”Р°\n РќРµС‚\n" });
 
     choice();
 
@@ -33,14 +33,14 @@ void start() {
 void choice() {
     cin >> ch;
 
-    if (ch == "Да") {
+    if (ch == "Р”Р°") {
 
-        cout << "*Грузин молча тушит свечку*\n";
+        cout << "*Р“СЂСѓР·РёРЅ РјРѕР»С‡Р° С‚СѓС€РёС‚ СЃРІРµС‡РєСѓ*\n";
 
     }
-    else if (ch == "Нет") {
+    else if (ch == "РќРµС‚") {
     
-        cout << "Вернись с мытой.\n";
+        cout << "Р’РµСЂРЅРёСЃСЊ СЃ РјС‹С‚РѕР№.\n";
     }
     else {
         cout << "ERROR\n";
@@ -175,7 +175,7 @@ int main() {
     //                break;
     //            }
     //            else if (choice == 3) {
-    //                std::cout << "You will wake up again, won't you?\n\n";
+    //                std::cout << "You will wake up again, won't you?\n\n";gbhg
     //                intro(status);
     //                break;
     //            }
